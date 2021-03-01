@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./link.css";
 
-const link = () => {
+const RouteLink = () => {
     return(
         <a href="#" className={classes.link}>Link</a> 
     );
 }
 
-export default link;
+export default RouteLink;
