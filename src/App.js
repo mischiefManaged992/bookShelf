@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import HomePage from '../src/containers/home/Home';
 import LandingPage from '../src/containers/landing/landing';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import LoginPage from "./containers/loginPage/LoginPage"
+
 
 import {
   BrowserRouter as Router,
@@ -15,6 +18,7 @@ import RouteLink from './containers/link/link';
 import GreenBtn from './containers/button/green-btn/green-btn';
 
 
+
 class App extends Component {
 
   render() {
@@ -25,11 +29,16 @@ class App extends Component {
           <Route path="/about">
             <div>This is the About Page</div>
           </Route>
+          <Route path="/login">
+            Login here:
+            <LoginPage/>
+          </Route>
           <Route path="/books">
             
               <LandingPage/>
             
           </Route>
+
           <Route path="/">
           
             <HomePage/>
