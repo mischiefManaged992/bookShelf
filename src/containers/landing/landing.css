@@ -1,0 +1,10 @@
+.landingPageContainer{
+    margin: 100px 0;
+    padding: 2rem;
+    height: 100%;
+    /* background: black; */
+}
+.bookTileContainer{
+    display: flex;
+    flex-direction: column;
+}
