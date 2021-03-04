@@ -1,13 +1,17 @@
 .gbtn {
     width: 100%;
-    height: 100%;
+    height: 60%;
     padding: 12px;
-    /* background: transparent; */
-    /* color: black; */
+    background: transparent;
+    color: white;
     border: none;
     background-color:#00B800;
     font-size: 1.2em;
     letter-spacing: 0.05em;
+    border-radius: 25px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    margin-bottom: 100px;
 }
 
 .gbtn:hover {
@@ -15,7 +19,6 @@
     border-radius: 25px;
     transition: 100ms;
     color: white;
-
     font-size: 1.2em;
     letter-spacing: 0.05em;
 }

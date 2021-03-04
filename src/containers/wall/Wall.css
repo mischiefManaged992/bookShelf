@@ -28,6 +28,23 @@
     padding-left: 20px;
 }
 
+.loginButton{
+    width: 8%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-end;
+    text-align: right;
+    align-self: center;
+    padding-left: 1400px;
+    padding-bottom: 2000px;
+    border-radius: 40px;
+    transition: 100ms;
+    letter-spacing: 0.05 em;
+   
+}
+
 .motto{
     margin: 0px 0 0px 0;
     font-family: 'Raleway', sans-serif;

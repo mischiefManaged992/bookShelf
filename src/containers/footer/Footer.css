@@ -20,6 +20,7 @@
     background-color: black;
     color: #00B800;
     align-items: left;
+    
 }
 
 a.social {
@@ -31,20 +32,29 @@ a.social {
 
 a.social:hover {
     transform: translateY(-2px);
+    
 }
 
 a.youtube {
     color: #eb3223;
+    margin: 0px 5px;
   }
   
 a.facebook {
     color: #4968ad;
+    margin: 0px 5px;
   }
   
 a.twitter {
     color: #49a1eb;
+    margin: 0px 5px;
   }
   
 a.instagram {
     color: #cd486b;
+    margin: 0px 5px;
+  }
+
+  .fa-2x{
+    margin: 0px 5px 0px 5px;
   }
