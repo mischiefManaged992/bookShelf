@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 720px;
+    background-image: linear-gradient(to bottom, rgba(17,18,18,1) 6%, rgba(23,23,25,1) 25%, rgba(14,17,12,0.8393732492997199) 45%, transparent),url('../../assets/images/book-shelf-index-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    background-repeat: repeat;
+}
+.innercontainer{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.maintext{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.motto{
+    margin: 0px 0 0px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+
+}
