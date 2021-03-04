@@ -12,9 +12,9 @@ import {
 const footer = (props) => {
 
     return(
-        <footer className="footerContainer">
+        <footer className={Classes.footerContainer}>
+            {/* <h2>Follow Us</h2> */}
             <div className="social-icons">
-                <h2>Follow Us</h2>
                 <a href="#" className="youtube social">
                     <FontAwesomeIcon icon={faYoutube} size="2x" />
                 </a>
