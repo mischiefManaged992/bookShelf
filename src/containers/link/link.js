@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./link.css";
+import "./link.css";
 
 const RouteLink = () => {
     return(
-        <a href="#" className={classes.link}>Link</a> 
+        <a href="#" className="link">Link</a> 
     );
 }
 

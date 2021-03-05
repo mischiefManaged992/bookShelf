@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../header/Header';
-import Classes from './Home.css';
+import './Home.css';
 import Wall from '../wall/Wall';
 import Footer from '../footer/Footer';
 
@@ -38,7 +38,7 @@ class HomePage extends Component {
 
 render() {
     return (
-        <div className={Classes.container}>
+        <div className="container">
             <Header />
             <Wall/>
             <Footer/>

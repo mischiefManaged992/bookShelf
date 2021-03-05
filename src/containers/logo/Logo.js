@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./Logo.css";
+import "./Logo.css";
 
 const logo = () => {
     return(
-        <div className={classes.logo}>
+        <div className="logo">
             
         </div>
     );

@@ -1,11 +1,11 @@
 
 import React from 'react';
-import classes from './green-btn.css';
+import './green-btn.css';
 
 
 const GreenBtn = (props) => {
     return (
-        <button className={classes.gbtn}>{props.text}</button>
+        <button className="gbtn">{props.text}</button>
     );
 }
 

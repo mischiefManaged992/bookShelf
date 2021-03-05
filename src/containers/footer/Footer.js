@@ -1,5 +1,5 @@
 import React from 'react';
-import Classes from './Footer.css';
+import './Footer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
@@ -12,7 +12,7 @@ import {
 const footer = (props) => {
 
     return(
-        <footer className={Classes.footerContainer}>
+        <footer className="footerContainer">
             {/* <h2>Follow Us</h2> */}
             <div className="social-icons">
                 <a href="#" className="youtube social">

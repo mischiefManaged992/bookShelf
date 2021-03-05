@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import GreenBtn from '../button/green-btn/green-btn';
 import "./LoginPage.css";
-import Button from "react-bootstrap/Button";
+
 
 export default function Login() {
   const [email, setEmail] = useState("");

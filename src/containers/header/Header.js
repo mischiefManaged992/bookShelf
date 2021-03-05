@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../logo/Logo';
 import NavigationBar from '../navbar/navigationBar';
-import Classes from './Header.css';
+import './Header.css';
 
 const header = (props) => {
 
@@ -9,14 +9,14 @@ const header = (props) => {
         window.scrollTo(0, 0);
     }
 
-    const classToUse = props.stick == true ? Classes.stick : Classes.container1
+    const classToUse = props.stick == true ? "stick" : "container1"
 
     return (
         <header className={classToUse}>
-            <div className = {Classes.container2}>
-                <Logo className={Classes.logo} clickAction={() => onClickHandler()}/>
-                <div className={Classes.filler}></div>
-                <NavigationBar className={Classes.navigation}/>
+            <div className = "container2">
+                <Logo className="logo" clickAction={() => onClickHandler()}/>
+                <div className="filler"></div>
+                <NavigationBar className="navigation"/>
             </div>
         </header>
     );
