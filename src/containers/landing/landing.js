@@ -12,7 +12,7 @@ const LandingPage = (props) => {
         
         <div className="landingPageContainer">
             {/* The book tile will go here */}
-            <h1>This is the books page</h1>
+            <h1>Latest Posts</h1>
             <div id="cards_landscape_wrap-2">
                 <div className="containerMain">
                     <div className="row">

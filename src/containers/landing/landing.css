@@ -52,7 +52,8 @@
    transform:scale(1.15);
  }
  #cards_landscape_wrap-2 .card-flyer .text-box{
-   text-align: center;
+   text-align: left;
+   display: flex;
  }
  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
    padding: 30px 18px;
