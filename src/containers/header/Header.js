@@ -15,7 +15,7 @@ const header = (props) => {
         <header className={classToUse}>
             <div className = "container2">
                 <Logo className="logo" clickAction={() => onClickHandler()}/>
-                <div className="filler"></div>
+                {/* <div className="filler"></div> */}
                 <NavigationBar className="navigation"/>
             </div>
         </header>

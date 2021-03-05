@@ -1,4 +1,4 @@
-.container{
+.containerNav{
     width: 400px;
     min-width: 400px;
     display: flex;
@@ -6,4 +6,5 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    font-size: 15px;
 }

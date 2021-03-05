@@ -4,7 +4,7 @@ import GreenBtn from '../button/green-btn/green-btn';
 
 const wall = () => {
     return (
-        <div className="container">
+        <div className="wallContainer">
             <div className="innercontainer">
                 <div className="maintext">
                     <p className="motto"> Bringing back the 
