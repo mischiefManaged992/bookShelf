@@ -13,7 +13,6 @@ const footer = (props) => {
 
     return(
         <footer className="footerContainer">
-            {/* <h2>Follow Us</h2> */}
             <div className="social-icons">
                 <a href="#" className="youtube social">
                     <FontAwesomeIcon icon={faYoutube} size="2x" />
@@ -27,6 +26,9 @@ const footer = (props) => {
                 <a href="#" className="instagram social">
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
+            </div>
+            <div className='copyright'>
+                &copy; Powered by OK 200
             </div>
         </footer>
     );

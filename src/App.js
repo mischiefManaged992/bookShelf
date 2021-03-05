@@ -31,7 +31,6 @@ class App extends Component {
           </Route>
           <Route path="/login">
             
-            Login here:
             <LoginPage/>
           
           </Route>

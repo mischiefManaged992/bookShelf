@@ -1,8 +1,52 @@
-.Login {
+.login-page-container {
+    width:100%;
+    height: calc(100vh - 200px);
     padding: 60px 0;
+    position: relative;
 }
-.Login form {
+.login-page-container form {
     margin: 0 auto;
     max-width: 320px;
 }
+
+.login-container{
+    min-width: 25vw;
+    font-family: 'Raleway';
+    position: absolute;
+    padding: 20px;
+    border: 1px solid #eee;
+    box-shadow: 1px 3px 8px #ccc;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
   
+.login-container .gbtn{
+    margin: 20px 0;
+}
+.login-heading{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-container .gbtn{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.login-container .form-group .form-label{
+    font-size: 12px;
+}
+.login-container .form-group input{
+    margin-bottom: 16px;
+    font-family: 'Raleway';
+}
+
+.login-container .invalid .gbtn{
+    opacity: 0.3;
+    pointer-events: none;
+}

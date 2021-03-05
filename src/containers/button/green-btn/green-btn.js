@@ -1,11 +1,13 @@
 
 import React from 'react';
 import './green-btn.css';
-
+import {
+    Link
+  } from "react-router-dom";
 
 const GreenBtn = (props) => {
     return (
-        <button className="gbtn">{props.text}</button>
+        <Link className="gbtn" to={props.url}>{props.text}</Link>
     );
 }
 

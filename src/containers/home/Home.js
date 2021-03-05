@@ -38,7 +38,7 @@ class HomePage extends Component {
 
 render() {
     return (
-        <div className="container">
+        <div className="container col-lg-12 col-md-12 col-sm-12 homepage-container">
             <Header />
             <Wall/>
             <Footer/>

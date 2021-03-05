@@ -14,10 +14,11 @@
     flex-direction: row;
     align-items: left;
     justify-content: space-between;
+    align-items: center;
 }
 
 .maintext{
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -28,7 +29,6 @@
 
 .loginButton{
     width: 10%;
-    height: 15%;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -38,7 +38,7 @@
     border-radius: 40px;
     transition: 100ms;
     letter-spacing: 0.05 em;
-    margin-top: 140px;
+    /* margin-top: 140px; */
 }
 
 .motto{
@@ -48,5 +48,5 @@
     color: white;
     font-weight: bold;
     text-align: left;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }

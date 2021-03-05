@@ -12,7 +12,7 @@ const wall = () => {
                     WORLD of BOOKS.</p>
                 </div>
                 <div className="loginButton">
-                <GreenBtn text="Login"></GreenBtn>
+                <GreenBtn text="Login" url="/login"></GreenBtn>
                 </div>
             </div>
             
