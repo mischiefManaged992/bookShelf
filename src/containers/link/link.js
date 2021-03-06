@@ -3,7 +3,7 @@ import "./link.css";
 
 const RouteLink = () => {
     return(
-        <a href="#" className="link">Link</a> 
+        <a href="https://www.google.com/" className="link">Link</a> 
     );
 }
 
